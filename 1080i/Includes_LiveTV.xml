@@ -290,75 +290,11 @@
 				</control>
 				<control type="label" id="1">
 					<left>295</left>
-					<width>50</width>
+					<width>150</width>
 					<height>38</height>
 					<font>font24_bold</font>
 					<textcolor>grey2</textcolor>
-					<label>A</label>
-					<visible>!String.Contains(PVR.ActStreamDevice,#0)</visible>
-				</control>
-				<control type="label" id="1">
-					<left>295</left>
-					<width>50</width>
-					<height>38</height>
-					<font>font24_bold</font>
-					<textcolor>green</textcolor>
-					<label>A</label>
-					<visible>String.Contains(PVR.ActStreamDevice,#0)</visible>
-				</control>
-				<control type="label" id="1">
-					<left>320</left>
-					<width>50</width>
-					<height>38</height>
-					<font>font24_bold</font>
-					<textcolor>grey2</textcolor>
-					<label>B</label>
-					<visible>!String.Contains(PVR.ActStreamDevice,#1)</visible>
-				</control>
-				<control type="label" id="1">
-					<left>320</left>
-					<width>50</width>
-					<height>38</height>
-					<font>font24_bold</font>
-					<textcolor>green</textcolor>
-					<label>B</label>
-					<visible>String.Contains(PVR.ActStreamDevice,#1)</visible>
-				</control>
-				<control type="label" id="1">
-					<left>345</left>
-					<width>50</width>
-					<height>38</height>
-					<font>font24_bold</font>
-					<textcolor>grey2</textcolor>
-					<label>C</label>
-					<visible>!String.Contains(PVR.ActStreamDevice,#2)</visible>
-				</control>
-				<control type="label" id="1">
-					<left>345</left>
-					<width>50</width>
-					<height>38</height>
-					<font>font24_bold</font>
-					<textcolor>green</textcolor>
-					<label>C</label>
-					<visible>String.Contains(PVR.ActStreamDevice,#2)</visible>
-				</control>
-				<control type="label" id="1">
-					<left>370</left>
-					<width>50</width>
-					<height>38</height>
-					<font>font24_bold</font>
-					<textcolor>grey2</textcolor>
-					<label>D</label>
-					<visible>!String.Contains(PVR.ActStreamDevice,#3)</visible>
-				</control>
-				<control type="label" id="1">
-					<left>370</left>
-					<width>50</width>
-					<height>38</height>
-					<font>font24_bold</font>
-					<textcolor>green</textcolor>
-					<label>D</label>
-					<visible>String.Contains(PVR.ActStreamDevice,#3)</visible>
+					<label>$INFO[PVR.ActStreamDevice]</label>
 				</control>
 			</control>
 		</control>
